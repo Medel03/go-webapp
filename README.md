@@ -15,4 +15,5 @@ This is a simple Go web application that serves static HTML pages.
 3. Run the application:
    ```bash
    go run main.go
-   Open your browser and visit http://localhost:8080/home to see the home page.
+
+Open your browser and visit http://localhost:8080/home to see the home page.
