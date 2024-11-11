@@ -1,0 +1,15 @@
+
+#### 6. **`.gitignore`**
+This file specifies which files and directories Git should ignore when committing changes. For Go projects, you generally want to ignore the following:
+
+```gitignore
+# Ignore Go binary files
+*.exe
+*.out
+*.test
+
+# Ignore vendor directory (if you're not using vendoring)
+vendor/
+
+# Ignore Go modules
+go.sum
