@@ -4,7 +4,7 @@ kind: Ingress
 metadata:
   name: go-webapp
   annotations:
-  nginx.ingress.kubernetes.io/rewrite_target: /
+    nginx.ingress.kubernetes.io/rewrite_target: /
 spec:
   ingressClassName: nginx
   rules:
