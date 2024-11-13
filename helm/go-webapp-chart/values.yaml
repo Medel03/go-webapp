@@ -8,4 +8,4 @@ image:
   repository: med3301/go-webapp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "11819862306"
+  tag: "11819992851"
