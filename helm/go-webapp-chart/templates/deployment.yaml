@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: go-webapp
-        image: med3301/go-webapp:v1
+        image: med3301/go-webapp:{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
